@@ -22,7 +22,25 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.question-card-cmp {
+  height: 150px;
+  width: 250px;
+  border: solid;
+  margin: 20px;
+  /* box-shadow:  */
+}
+
+.answer-card-cmp {
+  height: 75px;
+  width: 150px;
+  border: solid;
+  margin: 20px;
+}
+
+.show-modal {
+  display: block;
+}
+
+.hide-modal {
+  display: none;
 }

@@ -2,17 +2,20 @@ import * as React from 'react';
 
 export interface IProps {
     title: string;
+    display: string;
 }
 
-const SingleTask = ({
-    title
+const QuestionCard = ({
+    title,
+    display
 }: IProps) => {
 
   return (
-    <div className="single-task-cmp">
+    <div className="question-card-cmp">
       <h3 className="taskTitle">{title}</h3>
+      <p>{display}</p>
     </div>
   );
 }
 
-export default SingleTask;
+export default QuestionCard;
